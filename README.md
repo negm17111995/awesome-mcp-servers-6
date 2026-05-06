@@ -55,7 +55,7 @@ The public-facing website is based on the open-source [Directory Website Templat
 - [Content Management (1)](#content-management)
 - [Data Analysis & Exploration MCP Servers (7)](#data-analysis--exploration-mcp-servers-1)
 - [Data Science MCP Servers (2)](#data-science-mcp-servers)
-- [Database MCP Servers (16)](#database-mcp-servers)
+- [Database MCP Servers (17)](#database-mcp-servers)
 - [Databases (78)](#databases)
 - [Developer Tools "Developer Tools MCP Servers"amp; IDE MCP Servers (7)](#developer-tools-developer-tools-mcp-serversamp-ide-mcp-servers)
 - [Developer Tools & IDE MCP Servers (21)](#developer-tools--ide-mcp-servers)
@@ -183,7 +183,8 @@ The public-facing website is based on the open-source [Directory Website Templat
 - [Finance Market Data MCP Servers (6)](#finance-market-data-mcp-servers-2)
 - [Game Development (1)](#game-development)
 - [Game Server Hosting Platforms (1)](#game-server-hosting-platforms)
-- [Game Server MCP Implementations (28)](#game-server-mcp-implementations-1)
+- [Game Server Mcp Implementations (1)](#game-server-mcp-implementations-1)
+- [Game Server MCP Implementations (28)](#game-server-mcp-implementations-2)
 - [Gaming (6)](#gaming)
 - [Gaming & Entertainment MCP Servers (8)](#gaming--entertainment-mcp-servers)
 - [Gaming MCP Servers (38)](#gaming-mcp-servers)
@@ -1674,6 +1675,7 @@ The public-facing website is based on the open-source [Directory Website Templat
 - [DBHub Database](https://github.com/modelcontextprotocol/servers/tree/main/src/dbhub) - DBHub Database is a universal MCP server connecting AI assistants to multiple databases including MySQL, PostgreSQL, and SQLite for querying and management. It supports broad database compatibility and direct query execution. Perfect for AI agent data access across heterogeneous databases; stands out from single-DB MCP servers like PostgreSQL MCP by offering multi-DB support in one server. ([Read more](/details/dbhub-database.md)) `Universal Database` `Mysql` `Postgresql` `Sqlite` `Querying` `Data Retrieval`
 - [Elastic MCP](https://github.com/elastic/elastic-mcp) - Elastic MCP Server allows AI agents to interact with Elasticsearch databases through the Model Context Protocol. Key features include search and analytics query support tailored for Elastic. Suited for AI agent data retrieval in search-heavy use cases; differs from relational PostgreSQL MCP by focusing on full-text search and log analytics. ([Read more](/details/elastic-mcp.md)) `Elasticsearch` `Database` `Search` `Querying` `Data Retrieval`
 - [MCP Neo4j Server](https://github.com/da-okazaki/mcp-neo4j-server) - MCP Neo4j Server integrates AI agents with Neo4j graph databases via the Model Context Protocol, enabling Cypher queries and graph traversals. Key features include direct database interaction tools for LLMs. Suited for AI-driven graph data analysis and relationship mapping; contrasts with PostgreSQL MCP by focusing on graph structures rather than tabular data. ([Read more](/details/mcp-neo4j-server.md)) `Neo4j` `Graph Database` `Database` `Querying` `Data Retrieval`
+- [mend3](https://mcpservers.org/servers/mend3/mcp) - A collection of MCP servers for browser automation and database interaction, supporting Puppeteer, Postgres, MySQL, and Parquet. ([Read more](/details/mend3.md)) `Puppeteer` `Postgres` `Mysql`
 - [MongoDB MCP Server](https://github.com/mongodb-js/mongodb-mcp-server) - Official MCP integration for MongoDB NoSQL databases. Translates natural language questions into complex aggregation pipelines for querying unstructured data. ([Read more](/details/mongodb-mcp-server.md)) `Docker` `Self Hosted` `Mongodb` `Nosql`
 - [NihFix.Postgres.Mcp](https://github.com/AlekseyKapustyanenko/NihFix.Postgres.Mcp) - NihFix.Postgres.Mcp enables real-time interactions between AI agents and PostgreSQL databases using SSE and STDIO protocols via MCP. Key features include live query execution and streaming responses. Use cases involve dynamic AI agent data access; similar to other PostgreSQL MCP servers but emphasizes real-time SSE connectivity. ([Read more](/details/nihfixpostgresmcp.md)) `Postgres` `Real Time` `Sse` `Sql` `Querying`
 - [PostgreSQL MCP](https://github.com/crystaldba/postgres-mcp) - MCP server providing LLMs with direct execution access to PostgreSQL databases. Enables agents to inspect schemas and run SELECT statements for instant natural language data queries. Supports Docker for self-hosting. ([Read more](/details/postgresql-mcp.md)) `Docker` `Self Hosted` `Postgresql` `Sql`
@@ -3891,6 +3893,10 @@ The public-facing website is based on the open-source [Directory Website Templat
 ## Game Server Hosting Platforms
 
 - [Aternos](https://www.toptut.com/aternos-hosting-review/) - Aternos is a free proprietary hosting service that allows users to easily set up and manage Minecraft servers with modpack support, providing a no-cost alternative for deploying MCP servers. ([Read more](/details/aternos.md)) `Minecraft` `Hosting` `mod-support` `Free`
+
+## Game Server Mcp Implementations
+
+- [Minecraft MCP Integration](https://mcpservers.org/servers/arjunkmrm/mcp-minecraft) - A Model Context Protocol (MCP) integration for Minecraft that enables AI assistants to interact with a Minecraft server. This integration allows AI models to observe and interact with the Minecraft world through a bot, providing resources for bot location and status, and tools for movement, block manipulation, inventory management, and entity interaction. ([Read more](/details/mcp-minecraft.md)) `Minecraft` `Game Server` `Ai Integration`
 
 ## Game Server MCP Implementations
 
